@@ -8,7 +8,8 @@
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
 }
 
 
@@ -43,7 +44,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link+.nav-link {
   margin-left: 1rem;
 }
 
@@ -58,7 +59,22 @@ body {
 .logo-linkedin,
 .logo-lastfm,
 .logo-youtube {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 32px;
   height: 32px;
 
+}
+
+.p-5 {
+  padding: 1rem !important;
+}
+
+h2 {
+  margin: 2rem 0 2rem;
+  line-height: 1.2;
+}
+
+.card-text:last-child {
+  font-size: small
 }
