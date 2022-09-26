@@ -26,6 +26,9 @@ body {
   max-width: 55em;
 }
 
+.bd-placeholder-img {
+  margin-bottom: 0;
+}
 
 /*
  * Header
